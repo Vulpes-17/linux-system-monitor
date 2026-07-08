@@ -51,7 +51,7 @@ def print_resource_usage():
 def print_top_processes(limit=5):
     print("\nTop Processes by Memory")
     print("-" * 60)
-    print(f"{'PID':<8}{'Name':<25}{'Memory %':>10}")
+    print(f"{'PID':<8}{'Name':<25}{'     Memory %':>10}")
 
     processes = []
 
